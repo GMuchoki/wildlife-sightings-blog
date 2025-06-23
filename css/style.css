@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+/* .logo {
+  width: 600px;
+  height: auto;
+} */
+
+
 body{
     background-color: chocolate;
 }
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(15, 134, 57);
+}
+
+header img{
+    width: 300px;
+    height: 300px;
+    border: 20px solid rgba(177, 109, 9, 0.815);
+    border-radius: 50%;
+}
+
+header h1 {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 10px 0 20px 0;
+  color: rgba(212, 204, 192, 0.815);
+}
+
