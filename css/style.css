@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
 
-/* .logo {
-  width: 600px;
-  height: auto;
-} */
-
-
 body{
     background-color: chocolate;
 }
@@ -20,11 +14,16 @@ header{
     background-color: rgb(15, 134, 57);
 }
 
-header img{
+header .pfp{
     width: 300px;
     height: 300px;
     border: 20px solid rgba(177, 109, 9, 0.815);
     border-radius: 50%;
+    background-image: url('./../img/impala-full-img.JPG');
+    background-repeat: no-repeat;
+    background-position: -169px -23px;
+    background-size: 260%;
+    margin: 0 auto;
 }
 
 header h1 {
