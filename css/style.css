@@ -56,6 +56,18 @@ header .pfp{
     margin: 0 auto;
 }
 
+header .pfp.waterbuck{
+    width: 220px;
+    height: 220px;
+    border: 20px solid rgba(71, 43, 1, 0.815);
+    border-radius: 50%;
+    background-image: url('./../img/waterbucks.JPG');
+    background-repeat: no-repeat;
+    background-position: -173px -54px;
+    background-size: 302%;
+    margin: 0 auto;
+}
+
 header h1{
   font-family: "Jersey 20", sans-serif;
   font-weight: 400;
