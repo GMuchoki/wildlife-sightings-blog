@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 114, 30);
+}
+
+header{
+    text-align: center;
+    background-color: chocolate;
+}
+
+header .pfp{
+    width: 220px;
+    height: 220px;
+    border: 20px solid rgba(177, 109, 9, 0.815);
+    /* border-radius: 50%; */
+    background-image: url('./../img/impala-full-img.JPG');
+    background-repeat: no-repeat;
+    background-position: -173px -54px;
+    background-size: 302%;
+    margin: 0 auto;
+}
+
+header h1{
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 10px 0 20px 0;
+  color: rgba(212, 204, 192, 0.815);
+}
+
+main{
+    /* max-width: 800px; */
+    text-align: center;
+    margin-top: -20px;
+    /* margin: 0 auto; */
+    padding: 0 20px;
+    background-color: rgb(231, 114, 30);
+}
+
+main h2{
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin: 10px 0 20px 0;
+}
+
+main .fun-fact{
+    background-color:rgba(177, 109, 9, 0.815);
+    border-left: 4px solid rgba(71, 43, 1, 0.815); 
+    padding: 10px; margin-top: 15px;
+}
+
+main img{
+  max-width: 100%;
+}
+
+main .tag {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  background-color: rgba(177, 109, 9, 0.815);       /* or any reddish tone */
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 20px;
+  color: rgb(7, 7, 7);
+  /* max-width: fit-content;         Wrap content size */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+@media (max-width: 600px) {
+    header h1{
+        font-size: 50px;
+    }
+    main h2{
+        font-size: 40px;
+    }
+}
